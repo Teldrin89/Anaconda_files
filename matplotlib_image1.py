@@ -7,3 +7,6 @@ import numpy as np
 # image of a bug for the image handling exercise with matplotlib
 img = mpimg.imread('C:/Users/Luki/Documents/Python Scripts/Anaconda_files/stinkbug.png')
 print(img)
+
+img_plot = plt.imshow(img)
+plt.show(img_plot)
