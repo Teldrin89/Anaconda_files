@@ -8,5 +8,6 @@ import numpy as np
 img = mpimg.imread('C:/Users/Luki/Documents/Python Scripts/Anaconda_files/stinkbug.png')
 print(img)
 
-img_plot = plt.imshow(img)
+img_plot = plt.imshow(img, cmap="hot")
+plt.colorbar()
 plt.show(img_plot)
